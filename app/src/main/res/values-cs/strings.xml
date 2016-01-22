@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Star Wars Companion</string>
+    <string name="app_short_name">Companion App</string>
+
+    <string name="navigation_drawer_open">Otevřít navigační panel</string>
+    <string name="navigation_drawer_close">Zavřít navigační panel</string>
+
+    <string name="action_settings">Nastavení</string>
+    <string name="nav_menu_about">O filmu</string>
+    <string name="nav_menu_episodes">Epizody</string>
+    <string name="nav_menu_characters">Postavy</string>
+    <string name="nav_menu_cinema">V kinech</string>
+    <string name="nav_menu_project">O aplikaci</string>
+
+    <string name="desc_about">"Tato aplikace vznikla na základě univerzitního předmětu Vývoj aplikací pro mobilní zařízení.
+        Jedná se o univerzitní projekt. Doufáme, že se Vám aplikace bude líbit. Ať Vás provází síla."</string>
+    <string name="autor1">Jaroslav Maier</string>
+    <string name="autor2">Michal Milner</string>
+    <string name="authors">Autoři projektu:</string>
+    <string name="desc_instructions">"V aplikaci můžete začít výběrem položky z hlavního menu. Do hlavního menu se dostanete buď tlačítkem vlevo nahoře, nebo
+        ho můžete stáhnout prstem z levé části obrazovky."</string>
+</resources>
