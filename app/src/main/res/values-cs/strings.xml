@@ -13,6 +13,7 @@
     <string name="nav_menu_cinema">V kinech</string>
     <string name="nav_menu_project">O aplikaci</string>
 
+    //O aplikaci
     <string name="desc_about">"Tato aplikace vznikla na základě univerzitního předmětu Vývoj aplikací pro mobilní zařízení.
         Jedná se o univerzitní projekt. Doufáme, že se Vám aplikace bude líbit. Ať Vás provází síla."</string>
     <string name="autor1">Jaroslav Maier</string>
@@ -20,4 +21,25 @@
     <string name="authors">Autoři projektu:</string>
     <string name="desc_instructions">"V aplikaci můžete začít výběrem položky z hlavního menu. Do hlavního menu se dostanete buď tlačítkem vlevo nahoře, nebo
         ho můžete stáhnout prstem z levé části obrazovky."</string>
+
+    //V kinech
+    <string name="ep7">"Star Wars: Epizoda VII - Síla se probouzí"</string>
+    <string name="ep8">"Star Wars: Epizoda VIII"</string>
+    <string name="ep9">"Star Wars: Epizoda IX"</string>
+    <string name="header_premiere">Premiéra: </string>
+    <string name="header_director">Režie: </string>
+    <string name="header_actors">Herci: </string>
+    <string name="premiere_ep7">17.12.2015</string>
+    <string name="director_ep7">J.J. Abrams</string>
+    <string name="actors_ep7">"Harrison Ford, Mark Hamill, Carrie Fisher, Adam Driver, Daisy Ridley, John Boyega, Oscar Isaac, Lupita Nyong'o, Andy Serkis, Domhnall Gleeson, Anthony Daniels"</string>
+    <string name="desc_ep7">"Mnohé se změnilo po událostech z šesté epizody jedné z nejpopulárnějších filmových ság a po deseti letech, kdy vyšla na svět konečná část počátku této ságy (Pomsta Sithů), přichází první část nové trilogie populárních Star Wars (Hvězdných válek), kde po boku starých známých hrdinů, Jediho Lukea Skywalkera, neohroženého psance Hana Sola anebo vznešené princezny Leiy přichází na scénu i nové postavy, které se po jejich boku snaží opět zachránit galaxii před pádem do spárů temných sil."</string>
+    <string name="premiere_ep8">25.05.2017</string>
+    <string name="director_ep8">Rian Johnson</string>
+    <string name="actors_ep8">"Daisy Ridley, Adam Driver, Carrie Fisher, Mark Hamill, Oscar Isaac, Domhnall Gleeson, John Boyega, Harrison Ford, Gwendoline Christie, Benicio Del Toro, Lupita Nyong'o, Andy Serkis, Max von Sydow, Anthony Daniels, Jimmy Vee"</string>
+    <string name="desc_ep8">"Příběh navazuje na předchozí sedmou epizodu"</string>
+    <string name="premiere_ep9">2019</string>
+    <string name="director_ep9">Colin Trevorrow</string>
+    <string name="actors_ep9">"Obsazení zatím nebylo zveřejněno"</string>
+    <string name="desc_ep9">"Příběh a jeho zápletka nejsou zatím známy"</string>
+
 </resources>

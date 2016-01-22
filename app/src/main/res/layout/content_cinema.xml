@@ -8,8 +8,274 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/star_background"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="cz.schoolproject.starwarscompanion.CinemaActivity"
     tools:showIn="@layout/activity_cinema">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/text_block"
+                android:background="@color/background_grey"
+                android:popupBackground="@color/background_grey"
+                android:spinnerMode="dropdown"/>
+            <!-- Epizoda VII -->
+            <RelativeLayout
+                android:id="@+id/layout_ep7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spinner">
+                <!-- Nadpis -->
+                <TextView
+                    android:id="@+id/header_ep7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/spaceGold"
+                    android:textSize="@dimen/header1"
+                    android:text="@string/ep7"
+                    android:gravity="center"
+                    android:layout_marginBottom="@dimen/text_block"/>
+                <!-- Plakát -->
+                <ImageView
+                    android:id="@+id/image_ep7"
+                    android:layout_below="@id/header_ep7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/img_block"
+                    android:src="@drawable/ep7"/>
+                <!-- Premiéra -->
+                <TextView
+                    android:id="@+id/header_ep7_premiere"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/header_ep7"
+                    android:layout_toRightOf="@id/image_ep7"
+                    android:layout_marginRight="@dimen/text_block"
+                    android:text="@string/header_premiere"
+                    android:textColor="@color/darkside_red"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/header_ep7_premiere_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/header_ep7"
+                    android:layout_toRightOf="@id/header_ep7_premiere"
+                    android:text="@string/premiere_ep7"
+                    android:textColor="@color/spaceGold"/>
+                <!-- Režie -->
+                <TextView
+                    android:id="@+id/header_ep7_director"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/header_ep7_premiere"
+                    android:layout_toRightOf="@id/image_ep7"
+                    android:layout_marginRight="@dimen/text_block"
+                    android:text="@string/header_director"
+                    android:textColor="@color/darkside_red"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/header_ep7_director_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/header_ep7_premiere"
+                    android:layout_toRightOf="@id/header_ep7_director"
+                    android:text="@string/director_ep7"
+                    android:textColor="@color/spaceGold"/>
+                <!-- Herci -->
+                <TextView
+                    android:id="@+id/header_ep7_actors"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/header_ep7_director"
+                    android:layout_toRightOf="@id/image_ep7"
+                    android:layout_marginRight="@dimen/text_block"
+                    android:text="@string/header_actors"
+                    android:textColor="@color/darkside_red"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/header_ep7_actors_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/header_ep7_actors"
+                    android:layout_toRightOf="@id/image_ep7"
+                    android:text="@string/actors_ep7"
+                    android:textColor="@color/spaceGold"/>
+                <!-- Popis -->
+                <TextView
+                    android:id="@+id/header_ep7_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/image_ep7"
+                    android:text="@string/desc_ep7"
+                    android:textColor="@color/spaceGold"/>
+            </RelativeLayout>
+            <!-- Epizoda VIII -->
+            <RelativeLayout
+                android:id="@+id/layout_ep8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spinner">
+                <!-- Plakát -->
+                <ImageView
+                    android:id="@+id/image_ep8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/img_block"
+                    android:src="@drawable/ep8"/>
+                <!-- Premiéra -->
+                <TextView
+                    android:id="@+id/header_ep8_premiere"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/image_ep8"
+                    android:layout_marginRight="@dimen/text_block"
+                    android:text="@string/header_premiere"
+                    android:textColor="@color/darkside_red"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/header_ep8_premiere_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/image_ep8"
+                    android:layout_toRightOf="@id/header_ep8_premiere"
+                    android:text="@string/premiere_ep8"
+                    android:textColor="@color/spaceGold"/>
+                <!-- Režie -->
+                <TextView
+                    android:id="@+id/header_ep8_director"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/header_ep8_premiere"
+                    android:layout_marginRight="@dimen/text_block"
+                    android:text="@string/header_director"
+                    android:textColor="@color/darkside_red"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/header_ep8_director_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/header_ep8_premiere"
+                    android:layout_toRightOf="@id/header_ep8_director"
+                    android:text="@string/director_ep8"
+                    android:textColor="@color/spaceGold"/>
+                <!-- Herci -->
+                <TextView
+                    android:id="@+id/header_ep8_actors"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/header_ep8_director"
+                    android:layout_marginRight="@dimen/text_block"
+                    android:text="@string/header_actors"
+                    android:textColor="@color/darkside_red"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/header_ep8_actors_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/header_ep8_actors"
+                    android:layout_marginBottom="@dimen/img_block"
+                    android:text="@string/actors_ep8"
+                    android:textColor="@color/spaceGold"/>
+                <!-- Popis -->
+                <TextView
+                    android:id="@+id/header_ep8_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/header_ep8_actors_content"
+                    android:text="@string/desc_ep8"
+                    android:textColor="@color/spaceGold"
+                    android:textStyle="bold"/>
+            </RelativeLayout>
+            <!-- Epizoda IX -->
+            <RelativeLayout
+                android:id="@+id/layout_ep9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spinner">
+                <!-- Plakát -->
+                <ImageView
+                    android:id="@+id/image_ep9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/img_block"
+                    android:src="@drawable/ep9"/>
+                <!-- Premiéra -->
+                <TextView
+                    android:id="@+id/header_ep9_premiere"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/image_ep9"
+                    android:layout_marginRight="@dimen/text_block"
+                    android:text="@string/header_premiere"
+                    android:textColor="@color/darkside_red"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/header_ep9_premiere_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/image_ep9"
+                    android:layout_toRightOf="@id/header_ep9_premiere"
+                    android:text="@string/premiere_ep9"
+                    android:textColor="@color/spaceGold"/>
+                <!-- Režie -->
+                <TextView
+                    android:id="@+id/header_ep9_director"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/header_ep9_premiere"
+                    android:layout_marginRight="@dimen/text_block"
+                    android:text="@string/header_director"
+                    android:textColor="@color/darkside_red"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/header_ep9_director_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/header_ep9_premiere"
+                    android:layout_toRightOf="@id/header_ep9_director"
+                    android:text="@string/director_ep9"
+                    android:textColor="@color/spaceGold"/>
+                <!-- Herci -->
+                <TextView
+                    android:id="@+id/header_ep9_actors"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/header_ep9_director"
+                    android:layout_marginRight="@dimen/text_block"
+                    android:text="@string/header_actors"
+                    android:textColor="@color/darkside_red"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/header_ep9_actors_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/header_ep9_director"
+                    android:layout_toRightOf="@id/header_ep9_actors"
+                    android:text="@string/actors_ep9"
+                    android:textColor="@color/spaceGold"/>
+                <!-- Popis -->
+                <TextView
+                    android:id="@+id/header_ep9_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/img_block"
+                    android:layout_below="@id/header_ep9_actors"
+                    android:text="@string/desc_ep9"
+                    android:textColor="@color/spaceGold"
+                    android:textStyle="bold"/>
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
 
 </RelativeLayout>

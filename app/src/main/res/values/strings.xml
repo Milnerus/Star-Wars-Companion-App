@@ -17,6 +17,7 @@
     <string name="title_activity_cinema">CinemaActivity</string>
     <string name="title_activity_movie">MovieActivity</string>
 
+    //About application
     <string name="desc_about">"This application has been created on behalf of the university project Application development for mobile devices.
         This Application is only a testing project. We hope that you'll like the app. May the force be with you."</string>
     <string name="autor1">Jaroslav Maier</string>
@@ -24,4 +25,24 @@
     <string name="authors">Project developers:</string>
     <string name="desc_instructions">"You can start using this application by selecting an item from the main menu. You can access the main menu by selecting
         the top left button or simply by swiping your finger from the left side of your screen."</string>
+
+    //In cinema
+    <string name="ep7">"Star Wars: Episode VII - The Force Awakens"</string>
+    <string name="ep8">"Star Wars: Episode VIII"</string>
+    <string name="ep9">"Star Wars: Episode IX"</string>
+    <string name="header_premiere">Premiere: </string>
+    <string name="header_director">Director: </string>
+    <string name="header_actors">Actors: </string>
+    <string name="premiere_ep7">December 17th 2015</string>
+    <string name="director_ep7">J.J. Abrams</string>
+    <string name="actors_ep7">"Harrison Ford, Mark Hamill, Carrie Fisher, Adam Driver, Daisy Ridley, John Boyega, Oscar Isaac, Lupita Nyong'o, Andy Serkis, Domhnall Gleeson, Anthony Daniels"</string>
+    <string name="desc_ep7">"Three decades after the defeat of the Galactic Empire, a new threat arises. The First Order attempts to rule the galaxy and only a ragtag group of heroes can stop them, along with the help of the Resistance."</string>
+    <string name="premiere_ep8">May 25th 2017</string>
+    <string name="director_ep8">Rian Johnson</string>
+    <string name="actors_ep8">"Daisy Ridley, Adam Driver, Carrie Fisher, Mark Hamill, Oscar Isaac, Domhnall Gleeson, John Boyega, Harrison Ford, Gwendoline Christie, Benicio Del Toro, Lupita Nyong'o, Andy Serkis, Max von Sydow, Anthony Daniels, Jimmy Vee"</string>
+    <string name="desc_ep8">"Story continues and follows the seventh episode."</string>
+    <string name="premiere_ep9">2019</string>
+    <string name="director_ep9">Colin Trevorrow</string>
+    <string name="actors_ep9">"Cast not announced yet"</string>
+    <string name="desc_ep9">"Story and plot are not yet availible."</string>
 </resources>

@@ -5,5 +5,8 @@
     <color name="colorAccent">#FF4081</color>
     <color name="spaceGold">#e5e600</color>
     <color name="black">#000000</color>
+    <color name="background_grey">#A0A0A0</color>
+    <color name="darkside_red">#CC0000</color>
+    <color name="lightside_blue">#0033CC</color>
 
 </resources>
