@@ -6,8 +6,9 @@
     <string name="navigation_drawer_open">Otevřít navigační panel</string>
     <string name="navigation_drawer_close">Zavřít navigační panel</string>
 
+    <string name="action_lightside">Světlá strana</string>
+    <string name="action_darkside">Temná strana</string>
     <string name="action_settings">Nastavení</string>
-    <string name="action_refresh">Obnovit</string>
     <string name="action_quit">Ukončit</string>
     <string name="nav_menu_about">O filmu</string>
     <string name="nav_menu_episodes">Epizody</string>

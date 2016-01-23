@@ -7,10 +7,14 @@
     android:orientation="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="cz.schoolproject.starwarscompanion.CharactersActivity"
-    tools:showIn="@layout/activity_characters">
+    tools:showIn="@layout/activity_characters"
+    android:background="@drawable/star_background">
 
     <ListView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/lvMovies" />
+        android:layout_height="match_parent"
+        android:id="@+id/swPerson"
+        />
+
+
 </RelativeLayout>
