@@ -1,8 +1,7 @@
 <resources>
     <string name="app_name">Star Wars Companion</string>
     <string name="app_short_name">Companion App</string>
-    <string name="action_lightside">Light Side</string>
-    <string name="action_darkside">Dark Side</string>
+
     <string name="action_settings">Settings</string>
     <string name="action_quit">Quit</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -19,6 +18,7 @@
     <string name="title_activity_cinema">CinemaActivity</string>
     <string name="title_activity_movie">MovieActivity</string>
 
+
     //About application
     <string name="desc_about">"This application has been created on behalf of the university project Application development for mobile devices.
         This Application is only a testing project. We hope that you'll like the app. May the force be with you."</string>
@@ -27,7 +27,16 @@
     <string name="authors">Project developers:</string>
     <string name="desc_instructions">"You can start using this application by selecting an item from the main menu. You can access the main menu by selecting
         the top left button or simply by swiping your finger from the left side of your screen."</string>
-
+    //About movie
+    <string name="about_movie">About Movie</string>
+    <string name="about_starwars">Star Wars is an American epic space opera franchise, centered on a film series created by George Lucas. Every films begins a long time ago in a galaxy far, far away.\n
+        The first film in the series, Star Wars (later subtitled Episode IV: A New Hope), was released on May 25, 1977 by 20th Century Fox and became a worldwide pop culture phenomenon. \nIt was followed by the similarly successful sequels The Empire Strikes Back (1980) and Return of the Jedi (1983); these three films constitute the original Star Wars trilogy. \nA prequel trilogy was later released between 1999 and 2005, which received a more mixed reaction from critics and fans, compared to the original trilogy.\n
+        All six films were nominated for or won Academy Awards, and were commercial successes, with a combined box office revenue billion dolars.\n In 2015 was realesed new film Star Wars force awakens\n
+        This movie continue on film Star Wars New Hope. For fans series are promised two another movies.
+    </string>
+    //Persons
+    <string name="action_lightside">Light Side</string>
+    <string name="action_darkside">Dark Side</string>
     //In cinema
     <string name="ep7">"Star Wars: Episode VII - The Force Awakens"</string>
     <string name="ep8">"Star Wars: Episode VIII"</string>

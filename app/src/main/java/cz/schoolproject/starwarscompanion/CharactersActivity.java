@@ -224,9 +224,9 @@ public class CharactersActivity extends AppCompatActivity {
                     progressBar.setVisibility(View.GONE);
                 }
             }); // Default options will be used
-            holder.pName.setText("Jméno: " + personModelList.get(position).getName());
-            holder.pSex.setText("Pohlaví: "+personModelList.get(position).getMaster());
-            holder.pSpecies.setText("Rasa: " + personModelList.get(position).getSex());
+            holder.pName.setText(personModelList.get(position).getName());
+            holder.pSex.setText("Pohlaví: "+personModelList.get(position).getSex());
+            holder.pSpecies.setText("Rasa: " + personModelList.get(position).getSpecies());
             holder.pDateOfBirth.setText("Datum narození: " + personModelList.get(position).getDateofbirth());
             holder.pDateOfDeath.setText("Datum úmrtí: " + personModelList.get(position).getDateofdeath());
             holder.pMaster.setText("Mistr: " + personModelList.get(position).getMaster());
@@ -236,7 +236,7 @@ public class CharactersActivity extends AppCompatActivity {
             for(PersonModel.Movie movie : personModelList.get(position).getMovieList()){
                 stringBuffer.append(movie.getName() + "\n");
             }
-            holder.pMovie.setText("Filmy: " + stringBuffer.toString());
+            holder.pMovie.setText("Filmy ve kterých hrál: "+ "\n" + stringBuffer.toString());
             holder.pStory.setText("Příběh: " + personModelList.get(position).getStory());
 
 

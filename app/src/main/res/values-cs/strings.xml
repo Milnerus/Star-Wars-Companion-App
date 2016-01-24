@@ -6,8 +6,7 @@
     <string name="navigation_drawer_open">Otevřít navigační panel</string>
     <string name="navigation_drawer_close">Zavřít navigační panel</string>
 
-    <string name="action_lightside">Světlá strana</string>
-    <string name="action_darkside">Temná strana</string>
+
     <string name="action_settings">Nastavení</string>
     <string name="action_quit">Ukončit</string>
     <string name="nav_menu_about">O filmu</string>
@@ -25,6 +24,19 @@
     <string name="desc_instructions">"V aplikaci můžete začít výběrem položky z hlavního menu. Do hlavního menu se dostanete buď tlačítkem vlevo nahoře, nebo
         ho můžete stáhnout prstem z levé části obrazovky."</string>
 
+    //About movie
+    <string name="about_movie">O Filmu</string>
+    <string name="about_starwars">Star Warse je americká filmová série vytvořena Georgem Lucasem. Každý film začíná hláškou : Kdysi dávno v předaleké galaxii. \n
+    První film série Star Wars (název Episoda IV: Nová naděje) vyšel 25. května 1977 od společnosti 20th Centruy fox.\n
+    Dále byl následován filmy Impérium vrací úder (1980) a Návrat Jediho (1983). \nTyto tři filmy tvoří původní trilogii
+Star Wars. \n Prequel trilogie vyšel v letech 1999 až 2005. \n Prequel obsahoval díly Star wars skrytá hrozba, klony útočí a
+pomsta sithů. \nTento prequel vyvolal u kritiků a fanoušků série smíšené reakce.\n
+Všech šest filmů byl nominována a vyhrálo ceny akademiií a jejich výnosy se pohybovali v miliardách dolarů.\n
+V roce 2015 byl natočen film Star Wars síla se probouzí. Tento film navazuje na díl Star Wars Episoda VI.
+Pro fanoušky série jsou přislíbeny další 2 díly této série.</string>
+    //Persons
+    <string name="action_lightside">Světlá strana</string>
+    <string name="action_darkside">Temná strana</string>
     //V kinech
     <string name="ep7">"Star Wars: Epizoda VII - Síla se probouzí"</string>
     <string name="ep8">"Star Wars: Epizoda VIII"</string>

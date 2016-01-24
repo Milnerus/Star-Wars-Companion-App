@@ -4,7 +4,8 @@
     android:layout_height="match_parent"
     android:padding="4dp"
     android:orientation="vertical"
-    android:background="@drawable/star_background">
+    android:background="@drawable/star_background"
+    android:weightSum="1">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -18,8 +19,8 @@
             >
 
             <ImageView
-                android:layout_width="120dp"
-                android:layout_height="160dp"
+                android:layout_width="131dp"
+                android:layout_height="175dp"
                 android:id="@+id/rowIcon"
                 android:contentDescription=""
                 />
@@ -34,7 +35,9 @@
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            >
 
             <TextView
                 android:layout_width="wrap_content"
@@ -42,7 +45,8 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Jméno"
                 android:id="@+id/rowName"
-                android:textColor="#fbf700" />
+                android:textColor="@color/spaceGold"
+                android:textStyle="italic" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -50,7 +54,7 @@
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:text="Pohlaví"
                 android:id="@+id/rowSex"
-                android:textColor="#fbf700" />
+                android:textColor="@color/spaceGold" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -58,7 +62,7 @@
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:text="Druh"
                 android:id="@+id/rowSpecies"
-                android:textColor="#fbf700" />
+                android:textColor="@color/spaceGold" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -66,7 +70,7 @@
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:text="Datum narození:"
                 android:id="@+id/rowDateOfBirth"
-                android:textColor="#fbf700" />
+                android:textColor="@color/spaceGold" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -74,7 +78,7 @@
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:text="Datum úmrtí"
                 android:id="@+id/rowDateOfDeath"
-                android:textColor="#fbf700" />
+                android:textColor="@color/spaceGold" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -82,7 +86,7 @@
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:text="Mistr"
                 android:id="@+id/rowMaster"
-                android:textColor="#fbf700" />
+                android:textColor="@color/spaceGold" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -90,7 +94,7 @@
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:text="padawan"
                 android:id="@+id/rowPadawan"
-                android:textColor="#fbf700" />
+                android:textColor="@color/spaceGold" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -98,29 +102,30 @@
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:text="sabercolor"
                 android:id="@+id/rowSaberColor"
-                android:textColor="#fbf700" />
+                android:textColor="@color/spaceGold" />
         </LinearLayout>
     </LinearLayout>
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_weight="0.35">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="Filmy"
             android:id="@+id/rowFilms"
-            android:textColor="#fbf700" />
+            android:textColor="@color/spaceGold" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Obsah"
             android:id="@+id/rowStory"
-            android:textColor="#fbf700" />
+            android:textColor="@color/spaceGold" />
     </LinearLayout>
 
 </LinearLayout>
