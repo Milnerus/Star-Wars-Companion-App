@@ -20,15 +20,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Episodes"
-            android:label="@string/title_activity_episodes"
-            android:parentActivityName=".MainActivity"
-            android:theme="@style/AppTheme.NoActionBar">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="cz.schoolproject.starwarscompanion.MainActivity" />
-        </activity>
-        <activity
             android:name=".CharactersActivity"
             android:label="@string/title_activity_characters"
             android:parentActivityName=".MainActivity"

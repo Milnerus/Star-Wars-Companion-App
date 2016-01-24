@@ -7,10 +7,6 @@
             android:icon="@drawable/ic_menu_about"
             android:title="@string/nav_menu_about" />
         <item
-            android:id="@+id/nav_episodes"
-            android:icon="@drawable/ic_menu_episodes"
-            android:title="@string/nav_menu_episodes" />
-        <item
             android:id="@+id/nav_characters"
             android:icon="@drawable/ic_menu_characters"
             android:title="@string/nav_menu_characters" />
